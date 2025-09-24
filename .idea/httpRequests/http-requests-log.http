@@ -1,0 +1,651 @@
+GET http://localhost:8080/api/transactions?currency=EUR&minAmount=100&maxAmount=200&page=0&size=10&sortBy=amount&sortDir=asc
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-24T154412.200.json
+
+###
+
+GET http://localhost:8080/api/transactions?page=0&size=5&sortBy=amount&sortDir=desc
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-24T154407.200.json
+
+###
+
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+Content-Length: 215
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 75.00,
+  "currency": "USD",
+  "description": "Pagamento fattura",
+  "timestamp": "2024-10-01T10:00:00",
+  "senderAccount": "US60X0542811101000000123456",
+  "receiverAccount": "US89370400440532013000"
+}
+
+<> 2025-09-24T154401.201.json
+
+###
+
+PUT http://localhost:8080/api/transactions/1
+Content-Type: application/json
+Content-Length: 232
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 150.00,
+  "currency": "EUR",
+  "description": "Biglietti concerto aggiornati",
+  "timestamp": "2025-09-23T15:00:00",
+    "senderAccount": "IT60X0542811101000000123456",
+    "receiverAccount": "DE89370400440532013000"
+}
+
+<> 2025-09-24T154338.200.json
+
+###
+
+GET http://localhost:8080/api/transactions?currency=EUR&minAmount=100&maxAmount=200&page=0&size=10&sortBy=amount&sortDir=asc
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-24T154324.200.json
+
+###
+
+GET http://localhost:8080/api/transactions/1
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-24T154316.200.json
+
+###
+
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+Content-Length: 217
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 120.50,
+  "currency": "EUR",
+  "description": "Biglietti concerto",
+  "timestamp": "2024-09-23T14:30:00",
+  "senderAccount": "IT60X0542811101000000123456",
+  "receiverAccount": "DE89370400440532013000"
+}
+
+<> 2025-09-24T154309.201.json
+
+###
+
+GET http://localhost:8080/api/transactions?page=0&size=5&sortBy=amount&sortDir=desc
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-23T194956.200.json
+
+###
+
+DELETE http://localhost:8080/api/transactions/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+PUT http://localhost:8080/api/transactions/1
+Content-Type: application/json
+Content-Length: 232
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 150.00,
+  "currency": "EUR",
+  "description": "Biglietti concerto aggiornati",
+  "timestamp": "2025-09-23T15:00:00",
+    "senderAccount": "IT60X0542811101000000123456",
+    "receiverAccount": "DE89370400440532013000"
+}
+
+<> 2025-09-23T194929.200.json
+
+###
+
+PUT http://localhost:8080/api/transactions/1
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 150.00,
+  "currency": "EUR",
+  "description": "Biglietti concerto aggiornati",
+  "timestamp": "2025-09-23T15:00:00"
+}
+
+<> 2025-09-23T194849.400.json
+
+###
+
+GET http://localhost:8080/api/transactions?page=0&size=5&sortBy=amount&sortDir=desc
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-23T194824.200.json
+
+###
+
+GET http://localhost:8080/api/transactions/1
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-23T194821.200.json
+
+###
+
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+Content-Length: 217
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 120.50,
+  "currency": "EUR",
+  "description": "Biglietti concerto",
+  "timestamp": "2024-09-23T14:30:00",
+  "senderAccount": "IT60X0542811101000000123456",
+  "receiverAccount": "DE89370400440532013000"
+}
+
+<> 2025-09-23T194807.201.json
+
+###
+
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+Content-Length: 217
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 120.50,
+  "currency": "EUR",
+  "description": "Biglietti concerto",
+  "timestamp": "2024-09-23T14:30:00",
+  "senderAccount": "IT60X0542811101000000123456",
+  "receiverAccount": "DE89370400440532013000"
+}
+
+<> 2025-09-23T194212.400.json
+
+###
+
+GET http://localhost:8080/api/transactions?page=0&size=5&sortBy=amount&sortDir=desc
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-23T193209.200.json
+
+###
+
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+Content-Length: 217
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 120.50,
+  "currency": "EUR",
+  "description": "Biglietti concerto",
+  "timestamp": "2025-09-23T14:30:00",
+  "senderAccount": "IT60X0542811101000000123456",
+  "receiverAccount": "DE89370400440532013000"
+}
+
+<> 2025-09-23T192736.400.json
+
+###
+
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+Content-Length: 217
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 120.50,
+  "currency": "EUR",
+  "description": "Biglietti concerto",
+  "timestamp": "2025-09-23T14:30:00",
+  "senderAccount": "IT60X0542811101000000123456",
+  "receiverAccount": "DE89370400440532013000"
+}
+
+<> 2025-09-23T192659.400.json
+
+###
+
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+Content-Length: 217
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 120.50,
+  "currency": "EUR",
+  "description": "Biglietti concerto",
+  "timestamp": "2025-09-23T14:30:00",
+  "senderAccount": "IT60X0542811101000000123456",
+  "receiverAccount": "DE89370400440532013000"
+}
+
+<> 2025-09-23T192558.400.json
+
+###
+
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+Content-Length: 217
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 120.50,
+  "currency": "EUR",
+  "description": "Biglietti concerto",
+  "timestamp": "2025-09-23T14:30:00",
+  "senderAccount": "IT60X0542811101000000123456",
+  "receiverAccount": "DE89370400440532013000"
+}
+
+<> 2025-09-23T192542.400.json
+
+###
+
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+Content-Length: 217
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 120.50,
+  "currency": "EUR",
+  "description": "Biglietti concerto",
+  "timestamp": "2025-09-23T14:30:00",
+  "senderAccount": "IT60X0542811101000000123456",
+  "receiverAccount": "DE89370400440532013000"
+}
+
+<> 2025-09-23T192341.400.json
+
+###
+
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+Content-Length: 217
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 120.50,
+  "currency": "EUR",
+  "description": "Biglietti concerto",
+  "timestamp": "2025-09-23T14:30:00",
+  "senderAccount": "IT60X0542811101000000123456",
+  "receiverAccount": "DE89370400440532013000"
+}
+
+<> 2025-09-23T192327.400.json
+
+###
+
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+Content-Length: 217
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 120.50,
+  "currency": "EUR",
+  "description": "Biglietti concerto",
+  "timestamp": "2025-09-23T14:30:00",
+  "senderAccount": "IT60X0542811101000000123456",
+  "receiverAccount": "DE89370400440532013000"
+}
+
+<> 2025-09-23T192122.400.json
+
+###
+
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+Content-Length: 196
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 120.50,
+  "currency": "EUR",
+  "description": "Biglietti concerto",
+  "timestamp": "2025-09-23T14:30:00",
+  "senderAccount": "Edoardo Esposito",
+  "receiverAccount": "Concerto Srl"
+}
+
+<> 2025-09-23T192012.400.json
+
+###
+
+GET http://localhost:8080/api/transactions/1
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-23T191213.404.json
+
+###
+
+PUT http://localhost:8080/api/transactions/1
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 150.00,
+  "currency": "EUR",
+  "description": "Biglietti concerto aggiornati",
+  "timestamp": "2025-09-23T15:00:00"
+}
+
+<> 2025-09-23T191204.400.json
+
+###
+
+GET http://localhost:8080/api/transactions/1
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-23T191159.404.json
+
+###
+
+PUT http://localhost:8080/api/transactions/1
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 150.00,
+  "currency": "EUR",
+  "description": "Biglietti concerto aggiornati",
+  "timestamp": "2025-09-23T15:00:00"
+}
+
+<> 2025-09-23T191033.400.json
+
+###
+
+PUT http://localhost:8080/api/transactions/1
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 150.00,
+  "currency": "EUR",
+  "description": "Biglietti concerto aggiornati",
+  "timestamp": "2025-09-23T15:00:00"
+}
+
+<> 2025-09-23T190655.400.json
+
+###
+
+GET http://localhost:8080/api/transactions?page=0&size=5&sortBy=amount&sortDir=desc
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-23T190649.200.json
+
+###
+
+GET http://localhost:8080/api/transactions/1
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-23T190644.404.json
+
+###
+
+GET http://localhost:8080/api/payments?page=0&size=5&sortBy=amount&sortDir=desc
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-23T190604.404.json
+
+###
+
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+Content-Length: 196
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 120.50,
+  "currency": "EUR",
+  "description": "Biglietti concerto",
+  "timestamp": "2025-09-23T14:30:00",
+  "senderAccount": "Edoardo Esposito",
+  "receiverAccount": "Concerto Srl"
+}
+
+<> 2025-09-23T190558.400.json
+
+###
+
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+Content-Length: 196
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 120.50,
+  "currency": "EUR",
+  "description": "Biglietti concerto",
+  "timestamp": "2025-09-23T14:30:00",
+  "senderAccount": "Edoardo Esposito",
+  "receiverAccount": "Concerto Srl"
+}
+
+<> 2025-09-23T185930.400.json
+
+###
+
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+Content-Length: 196
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 120.50,
+  "currency": "EUR",
+  "description": "Biglietti concerto",
+  "timestamp": "2025-09-23T14:30:00",
+  "senderAccount": "Edoardo Esposito",
+  "receiverAccount": "Concerto Srl"
+}
+
+<> 2025-09-23T185649.400.json
+
+###
+
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+Content-Length: 196
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 120.50,
+  "currency": "EUR",
+  "description": "Biglietti concerto",
+  "timestamp": "2025-09-23T14:30:00",
+  "senderAccount": "Edoardo Esposito",
+  "receiverAccount": "Concerto Srl"
+}
+
+<> 2025-09-23T185304.400.json
+
+###
+
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+Content-Length: 198
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 120.50,
+  "currency": "EUR",
+  "description": "Biglietti concerto",
+  "timestamp": "2025-09-23T14:30:00",
+  "senderAccount": "Edoardo Esposito",
+    "receiverAccount": "Concerto Srl"
+}
+
+<> 2025-09-23T184724.400.json
+
+###
+
+GET http://localhost:8080/api/payments/1
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-23T184720.404.json
+
+###
+
+GET http://localhost:8080/api/payments?page=0&size=5&sortBy=amount&sortDir=desc
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-09-23T184706.404.json
+
+###
+
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+Content-Length: 198
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 120.50,
+  "currency": "EUR",
+  "description": "Biglietti concerto",
+  "timestamp": "2025-09-23T14:30:00",
+  "senderAccount": "Edoardo Esposito",
+    "receiverAccount": "Concerto Srl"
+}
+
+<> 2025-09-23T184641.400.json
+
+###
+
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+Content-Length: 120
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 120.50,
+  "currency": "EUR",
+  "description": "Biglietti concerto",
+  "timestamp": "2025-09-23T14:30:00"
+}
+
+<> 2025-09-23T184438.400.json
+
+###
+
+POST http://localhost:8080/api/payments
+Content-Type: application/json
+Content-Length: 120
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "amount": 120.50,
+  "currency": "EUR",
+  "description": "Biglietti concerto",
+  "timestamp": "2025-09-23T14:30:00"
+}
+
+<> 2025-09-23T184202.404.json
+
+###
+

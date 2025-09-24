@@ -1,0 +1,7 @@
+{
+  "type": "https://example.org/resource-not-found",
+  "title": "Resource not found",
+  "status": 404,
+  "detail": "Transaction not found with id: 1",
+  "instance": "/api/transactions/1"
+}

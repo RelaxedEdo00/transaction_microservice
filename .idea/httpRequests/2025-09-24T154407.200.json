@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "amount": 150.0,
+    "currency": "EUR",
+    "senderAccount": "IT60X0542811101000000123456",
+    "receiverAccount": "DE89370400440532013000",
+    "timestamp": "2025-09-23T15:00:00",
+    "description": "Biglietti concerto aggiornati"
+  },
+  {
+    "id": 2,
+    "amount": 75.0,
+    "currency": "USD",
+    "senderAccount": "US60X0542811101000000123456",
+    "receiverAccount": "US89370400440532013000",
+    "timestamp": "2024-10-01T10:00:00",
+    "description": "Pagamento fattura"
+  }
+]
