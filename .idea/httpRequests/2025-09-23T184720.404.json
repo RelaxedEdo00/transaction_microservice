@@ -1,7 +1,0 @@
-{
-  "type": "about:blank",
-  "title": "Not Found",
-  "status": 404,
-  "detail": "No static resource api/payments/1.",
-  "instance": "/api/payments/1"
-}
