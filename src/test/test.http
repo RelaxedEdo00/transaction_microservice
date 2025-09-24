@@ -1,0 +1,53 @@
+### CREATE PAYMENT
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+
+{
+  "amount": 120.50,
+  "currency": "EUR",
+  "description": "Biglietti concerto",
+  "timestamp": "2024-09-23T14:30:00",
+  "senderAccount": "IT60X0542811101000000123456",
+  "receiverAccount": "DE89370400440532013000"
+}
+
+### CREATE PAYMENT (another example)
+POST http://localhost:8080/api/transactions
+Content-Type: application/json
+
+{
+  "amount": 75.00,
+  "currency": "USD",
+  "description": "Pagamento fattura",
+  "timestamp": "2024-10-01T10:00:00",
+  "senderAccount": "US60X0542811101000000123456",
+  "receiverAccount": "US89370400440532013000"
+}
+
+### READ ALL PAYMENTS (with pagination & sort)
+GET http://localhost:8080/api/transactions?page=0&size=5&sortBy=amount&sortDir=desc
+Accept: application/json
+
+### READ PAYMENT BY ID
+GET http://localhost:8080/api/transactions/1
+Accept: application/json
+
+### UPDATE PAYMENT
+PUT http://localhost:8080/api/transactions/1
+Content-Type: application/json
+
+{
+  "amount": 150.00,
+  "currency": "EUR",
+  "description": "Biglietti concerto aggiornati",
+  "timestamp": "2025-09-23T15:00:00",
+    "senderAccount": "IT60X0542811101000000123456",
+    "receiverAccount": "DE89370400440532013000"
+}
+
+### DELETE PAYMENT
+DELETE http://localhost:8080/api/transactions/1
+
+### FILTER PAYMENTS (currency + min/max amount)
+GET http://localhost:8080/api/transactions?currency=EUR&minAmount=100&maxAmount=200&page=0&size=10&sortBy=amount&sortDir=asc
+Accept: application/json
